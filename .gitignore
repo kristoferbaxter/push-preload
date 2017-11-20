@@ -1,0 +1,13 @@
+# ignore node_modules and yarn lock
+node_modules/
+yarn.lock
+
+# ignore vscode entries (best editor ever?!)
+.vscode/
+
+# oh .DS_Store you friendly awesome foe
+.DS_Store
+
+# Certificates from simplehttp2server
+cert.pem
+key.pem

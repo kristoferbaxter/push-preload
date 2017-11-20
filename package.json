@@ -1,0 +1,17 @@
+{
+  "name": "push-preload-tests",
+  "version": "0.0.1",
+  "description": "Demonstration of Push versus Preload (including headers versus element) of binary data requested via fetch.",
+  "main": "index.js",
+  "author": "Kristofer Baxter",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "restify": "^6.3.2"
+  },
+  "devDependencies": {
+    "simplehttp2server": "^2.0.0"
+  }
+}

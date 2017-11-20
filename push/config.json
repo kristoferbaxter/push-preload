@@ -1,0 +1,13 @@
+{
+  "headers": [
+    {
+      "source": "/push/index.html",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</static/templates.gbx>; rel=preload; as=fetch"
+        }
+      ]
+    }
+  ]
+}

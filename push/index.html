@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<body>
+<script>
+  async function foo() {
+    const bytecode = await (await fetch('/static/templates.gbx', {credentials: 'include'})).arrayBuffer();
+    document.getElementById('fetch').innerHTML = new TextDecoder().decode(bytecode);
+  }
+  foo();
+</script>
+<p id='fetch'></p>
