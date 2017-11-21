@@ -16,7 +16,7 @@ Made with _kindness_ in California. 🏄
     * http://localhost:5001/element/index.html
       - Uses a <link rel='preload'> element to indicate the user-agent it should request the resource before fetching via JS.
     * http://localhost:5001/header/index.html
-      - Uses a Link: <$asset>; rel=preload; as=fetch to fetch.
+      - Uses Link: <$asset>; rel=preload; as=fetch header instead of an element.
       - Note that Chrome 64.0.3271.0 will not reconsile this resource and retrieves it twice.
     * https://localhost:5000/push
       - Works as expected.
